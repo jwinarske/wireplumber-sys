@@ -1,0 +1,16 @@
+[package]
+name = "wireplumber-sys"
+description = "Session / policy manager implementation for PipeWire"
+homepage = "https://github.com/jwinarske/wireplumber-sys"
+repository = "https://github.com/jwinarske/wireplumber-sys"
+version = "0.1.0"
+authors = ["Joel Winarske <joel.winarske@linux.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[build-dependencies]
+pkg-config = "0.3.19"
+bindgen = "0.56.0"
